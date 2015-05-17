@@ -1,0 +1,94 @@
+
+@font-face {
+	font-family: 'Bebas-Neue';
+	src: url(../fonts/BebasNeue.otf);
+}
+
+body {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+header {
+	padding-top: 0px;
+}
+
+.header-19 .navbar .brand img:first-child {
+	background-color: transparent;
+	border: none;
+	border-radius: 0px;
+	margin-top: 5px;
+}
+.footer-10 .brand {
+	font-family: 'Bebas-Neue';
+	font-size: 64px;
+}
+
+.footer-10 .brand img:first-child {
+	margin: 0px 15px 0 0 !important;
+}
+
+.header-19 .navbar .brand span {
+	font-family: 'Bebas-Neue';
+	font-size: 64px;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+.header-19-sub h1, .header-19-sub p {
+	color: white;
+}
+
+.background {
+	background-image: url(../img/bg.jpg);
+	opacity: 1 !important;
+}
+
+.header-19-sub {
+	overflow: hidden;
+}
+img.hidden-phone {
+	right: -240px !important;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+        -webkit-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        transform: scale(0.8);
+}
+img.hidden-phone:hover {
+	right: -140px !important;
+	-webkit-transform: rotate(-20deg) scale(1.0);
+	-o-transform: rotate(-20deg) scale(1.0);
+	-moz-transform: rotate(-20deg) scale(1.0);
+	transform: rotate(-20deg) scale(1.0);
+}
+img.apple-watch {
+      -moz-transform: scale(0.5);
+      -webkit-transform: scale(0.5);
+      -o-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      transform: scale(0.5);
+      right: 30% !important;
+      top: 45%;
+}
+section.content-9 {
+    margin: 160px 0 !important;
+}
+@media (max-width: 767px) {
+img.apple-watch {
+	visibility: hidden; 
+}
+}
+
+@media (max-width: 1024px) {
+img.hidden-phone {
+	visibility: hidden;
+}
+img.apple-watch {
+	visibility: hidden; 
+}
+}
