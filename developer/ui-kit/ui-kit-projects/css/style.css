@@ -851,7 +851,7 @@ body section[class*=content-] {
   top: 0;
   right: 0;
   bottom: 0;
-  background: #ebedee url(../../../common-files/img/header/ipad@2x.png) 100% 50% no-repeat;
+  background: #ebedee url('../../../common-files/img/header/ipad@2x.png') 100% 50% no-repeat;
   -webkit-background-size: 826px 772px;
   -moz-background-size: 826px 772px;
   -o-background-size: 826px 772px;
@@ -1165,7 +1165,7 @@ body section[class*=content-] {
   }
 }
 .projects-2 .project-1 {
-  background-image: url(../../../common-files/img/Hawaii_001.png);
+  background-image: url('../../../common-files/img/Hawaii_001.png');
 }
 .projects-2 .project-1 .container h1 {
   font-size: 50px;
@@ -1195,7 +1195,7 @@ body section[class*=content-] {
   }
 }
 .projects-2 .project-2 {
-  background-image: url(../../../common-files/img/Italy_001.png);
+  background-image: url('../../../common-files/img/Italy_001.png');
 }
 @media (max-width: 480px) {
   .projects-2 .project-2 .hero-unit h1 {
@@ -1203,7 +1203,7 @@ body section[class*=content-] {
   }
 }
 .projects-2 .project-3 {
-  background-image: url(../../../common-files/img/NY_002.png);
+  background-image: url('../../../common-files/img/NY_002.png');
 }
 .projects-2 .project-3 [class*="fui-"] {
   font-size: 95px;

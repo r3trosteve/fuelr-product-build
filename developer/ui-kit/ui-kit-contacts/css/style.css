@@ -1116,7 +1116,7 @@ body section[class*=content-] {
  * Copntact 4 stylesheet  
  * */
 .contacts-4 {
-  background: #34495e url(../../../common-files/img/map.png) 50% 50% no-repeat;
+  background: #34495e url('../../../common-files/img/map.png') 50% 50% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
